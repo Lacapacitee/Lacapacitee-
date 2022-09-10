@@ -1,0 +1,35 @@
+
+
+
+
+.logo{
+    width: 400px;
+    
+}
+
+
+
+div{
+    background-color : #d5bfff ;
+    padding: 2%;
+}
+
+p.ecole{
+    text-align : center;
+    font-size: 150%;
+    
+}
+img{
+    margin-left: 40%;
+    height: 25%;
+    width: 15%;
+    
+    align:middle;
+}
+div p.fin{
+    align:center;
+    float: middle;
+    margin-left:40%;
+       
+}
+

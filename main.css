@@ -1,0 +1,424 @@
+body {
+    background: #D7A79D;
+}
+*{
+    padding:0px;
+    margin:0px;
+    
+}
+
+/* debut-style- en-tête */
+
+header.tete{
+    background:#D7A79D ;
+    height: 90px;
+    border-bottom: 2px solid black;
+}
+header div.logo{
+    margin:-20px;
+    margin-top:-50px;
+    float:left;
+    /*background:#D7A79D;*/
+}
+
+div.logo img{
+    width: 250px;
+    height: 250px;
+    display: inline-block ;
+    
+}
+
+
+div.menu nav.menu1{
+    float:right;
+    margin:20px;
+    margin-top:20px;
+   /* background:#D7A79D;*/
+}
+
+
+header div.menu li{
+    float:left;
+    list-style: none;
+    margin:10px;
+}
+header div.menu a{
+    text-decoration : none;
+    color: red;
+    font-weight: bolder;
+    
+}
+
+div.bienvenue_ h1{
+    margin-top:40px;
+    margin-left:80px;
+    font-weight:bolder;
+}
+
+/* fin-style- en-tête */
+    
+    
+/* debut-style-Accueil */
+
+section.bienvenue{
+    height: 1000px;
+    background:#D7A79D;
+    display-flex;
+    border-bottom:4px solid black ;
+}
+section.bienvenue p{
+    padding:100px;
+    text-align:center;
+    font-weight:bolder;
+    font-size:80px;
+    line-height:150px;
+    color:black;
+    
+}
+section.bienvenue a{
+    text-decoration:none;
+    color:red;
+}
+section.presentation{
+    
+    height: 1280px;
+    display:inline-block;
+    background: url(story1.jpg);
+    
+}
+
+.histoire{
+    float:left;
+    width: 31%;
+   /* border:3px solid black;*/
+    margin:70px;
+    margin-top:600px;
+    font-size:30px;
+}
+.presentation span,span{
+    color:yellow;
+    font-weight:bold;
+}
+.story{
+    border: 8px solid yellow;
+    height: 650px;
+    float:right;
+    width: 45,5%;
+    margin:20px;
+    margin-top:500px;
+    margin-left:55px;
+}
+
+section.liens{
+    
+    background: #D7A79D;
+    padding-top:30px;
+    height: 2000px;        
+}
+section.liens h1{
+     color:white;
+     text-align:center;
+     font-size:45px;
+} 
+div h1.dernier_mot{
+    color: white ;
+    height: 200px;
+    background: #D7A79D ;
+    text-align:center;
+    padding:20px;
+    border-top:4px solid white;
+    font-size:45px;
+}
+div.lien{
+    height: 1500px;
+    background: #D7A79D;
+    display :flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    
+}
+
+section.liens div.element{
+    border: 2px solid white ;
+    border-radius:50px;
+    width: 30%;
+    margin-top:80px;
+    background: #FFFFFF;
+    padding:50px;
+    display :flex;
+    justify-content:center;
+    align-items:flex-end;
+    
+}
+section.liens div.element:hover{
+    background-color: #9691E5 ;
+    border-radius:30px;
+    opacity:1;
+}
+
+section.liens div.element h1{
+    color:#9691E5;
+    
+}
+section.liens div.element a{
+    text-decoration:none;
+    border :3px solid red
+    border-radius:25px;
+    padding: 100px;
+    font-size:30px;
+}
+section.liens div.element a span{
+    color:red;
+}
+
+
+    
+/* fin-style-Accueil*/
+
+
+/* debut-style-CV */
+
+section.cvtout{
+    background: #D7A79D;
+}
+div.moncv h1{
+    padding:100px;
+    background: #D7A79D;
+    margin-left:280px;
+    
+}  
+div.moncv{
+    backgrond: url(my_photo.jpg);
+}
+
+div.moncv figure.moncv{
+    background: #D7A79D;
+    border:5px double black ;
+    height: 1210px;
+    width: 85%;
+    margin: 80px;
+    margin-bottom: -80px;
+    text-align:center;
+    padding-top:120px;
+}
+    
+    
+/* fin-style-CV*/
+
+
+/* debut-style-Universite */
+    
+    
+    
+/* fin-style-Universite*/
+
+
+/* debut-style-Motivation */
+
+div.motivation_head{
+    background: #D7A79D;
+    padding-top:40px;
+    
+    
+}  
+div.motivation_header{
+    height: 100px;
+    background: #D7A79D;
+    display :flex;
+    justify-content:center;
+    
+    
+} 
+div.motivation_header div.motiv{
+   background: #D7A79D;
+   margin-right:130px ;
+   
+   border:2px solid black ;
+   border-radius:30px;
+}
+div.motivation_header div.motiv1{
+    width: 40%;
+    display :flex;
+    
+    align-items:center;
+    justify-content:center;
+    background: #D7A79D;
+    
+}
+div.motivation_header div.motiv2{
+    width: 40%;
+    display :flex;
+    align-items:center;
+    justify-content:center;
+    
+    
+    background: #D7A79D;
+}
+div.motivation_header a{
+    text-decoration:none;
+    color:red;
+    font-size:25px;
+    font-weight:bolder;
+    
+    height: 90% ;
+    padding-top:40px;
+    
+div.motivation_header a:hover{
+    background: blue ;
+    color: black ;
+}   
+}
+section.motivations{
+    display :flex;
+    background: #D7A79D;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    padding-top:100px;
+    height: 100%;
+    
+}
+section.motivations div.element{
+    margin-top:100px;
+}
+section.motivations h1{
+    border: 2px solid black ;
+    padding:40px;
+    border-radius:40px;
+    color:red;
+}
+section.motivations h1 a{
+    text-decoration:none;
+    color:red;
+    
+}
+section.french_motivation{
+    display:flex;
+    flex-direction: column;
+    
+    align-items:center;
+    margin-top: 100px;
+    margin-bottom:100px;
+}
+
+section.english_motivation{
+    margin-top:100px;
+    margin-bottom:100px;
+}
+
+
+/* fin-style-Motivations*/
+
+
+/* debut-style-cadeaux */
+
+section.cadeau{
+    background: url(capo1.png);
+    height: 2000px;
+    width: 100%;
+    opacity:0.8;
+    
+}
+.cadeau img{
+    margin:40px;
+    width: 50%;
+    float:left;
+    margin-left:-210px;
+}
+
+/* fin-style-cadeau */
+
+/* debut-style-formations */
+.section.formation{
+    
+}
+
+/* fin-style-formations */
+
+/* debut-style-contact */
+
+
+div.contactt{
+    height: 900px;
+    background: url(back1.jpg);
+    
+    clear:both;
+    display :flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+        
+}
+div.bienvenue_{
+    background: #D7A79D;
+   /* margin-top:-30px;
+    padding-top:50px;
+    border:2px solid black ;
+    margin:1px;*/
+    height: 100px;
+    padding-top:50px;
+    padding-left:200px;
+    
+    font-size:40px;
+    font-weight:bolder;
+}
+div.contactt form{
+    align-items:center;
+    padding-top :40px;
+}
+div.children1{
+    border:10px solid white;
+    height: 58%;
+    padding:20px;
+    background: white;
+    
+}
+div.children1 form textarea{
+    height: 120px;
+    width: 80%;
+    
+}
+div.children1 form label{
+    color:black;
+    font-weight:bold;
+}
+div.children1 form input{
+    border-radius:5px;
+    height: 32px;
+}
+div.children1 form input#envoyer{
+    margin-left:10px;
+    padding :15px;
+    width: 380px;
+    color: red ;
+    background:#D7A79D ;
+    font-weight:bol;
+    font-size:25px;
+    border-radius:30px;
+    height: 58px;
+}
+div.children2{
+    border:10px solid white;
+    height: 58%;
+    padding:20px;
+    background: #8CCAFD;
+    
+}
+
+
+    
+/* fin-style-contact */
+
+
+
+
+/* debut-style-footer */
+footer{
+    background:#D7A79D ;
+    height: 60px;
+    margin-top:bottom;
+    padding-top:40px;
+    padding-left:260px;
+    border-top:2px solid black;
+}
+/* fin-style-footer */
